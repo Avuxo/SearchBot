@@ -12,4 +12,6 @@ Search Bot can be run as a daemon on UNIX-derivative systems (untested on window
 
 In order to communicate with the bot, you must use the `client`. In order to compile the client, use `$ gcc client.c -o client` (has no non-standard dependencies on UNIX-like systems) to compile.
 
-`client` has a number of command line arguments, in order to see them all use the `-h` flag.
+`client` has a number of command line arguments, in order to see them all use the `-h` flag. EX: `$ ./client -g 1 -r` will start it with the 1st listed guild in rate mode
+
+NOTE: Ratings take time to complete, and there is no output indicating progress, so just wait.

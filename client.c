@@ -33,7 +33,7 @@ char *parseArgs(int argc, char **argv) {
     int argumentCounter = 0;
     for(int i=1; i<argc; i++, argumentCounter++) { /*j is counter for arguments*/
         if(strcmp(argv[i], "-h") == 0) { /*display program help*/
-            printf("Help:\n-h -- help\n-g -- specify guild <guildID>\n");
+            printf("Help:\n-h -- help\n-g -- specify guild <guildID>\n-l -- list guilds\n-r -- rate flag\n");
             free(arguments);
             exit(0);
         } else if(strcmp(argv[i], "-g") == 0) { /*change guild*/
